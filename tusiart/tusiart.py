@@ -62,7 +62,15 @@ class TensorArtService(object):
                         "steps": steps,
                         "sd_model": model_name,
                         "clip_skip": 2,
-                        "cfg_scale": cfg_scale
+                        "cfg_scale": cfg_scale,
+                        "lora": {
+                            "items": [
+                                {
+                                    "loraModel": "724927343564527198",
+                                    "weight": 0.8
+                                }
+                            ]
+                        }
                     }
                 }
             ]
